@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDgYis8Am3k2HgA3wIGQZSM_0uEAkR0DcE',
+    apiKey: '',
     appId: '1:460171351409:web:c38da0f4efd2027d2ed2d0',
     messagingSenderId: '460171351409',
     projectId: 'md2-task-manager',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA0bgOmqeLM5XLK_b8NOou5Onvn57GpvV0',
+    apiKey: '',
     appId: '1:460171351409:android:ae11e03882a1ab682ed2d0',
     messagingSenderId: '460171351409',
     projectId: 'md2-task-manager',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC4uOd5712vfC1O0-z2KjURPGY1IQh-XRI',
+    apiKey: '',
     appId: '1:460171351409:ios:3e746cf062ed70752ed2d0',
     messagingSenderId: '460171351409',
     projectId: 'md2-task-manager',
@@ -68,7 +68,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC4uOd5712vfC1O0-z2KjURPGY1IQh-XRI',
+    apiKey: '',
     appId: '1:460171351409:ios:3e746cf062ed70752ed2d0',
     messagingSenderId: '460171351409',
     projectId: 'md2-task-manager',
@@ -77,7 +77,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDgYis8Am3k2HgA3wIGQZSM_0uEAkR0DcE',
+    apiKey: '',
     appId: '1:460171351409:web:5b44b04ee44075162ed2d0',
     messagingSenderId: '460171351409',
     projectId: 'md2-task-manager',
