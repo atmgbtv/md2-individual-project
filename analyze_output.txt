@@ -1,0 +1,44 @@
+Analyzing md2-individual-project...                             
+
+warning • Unused import: 'package:flutter/material.dart' • lib/core/router/app_router.dart:1:8 • unused_import
+  error • Target of URI doesn't exist: '../repositories/auth_repository.dart' • lib/features/auth/data/repositories/auth_repository_impl.dart:3:8 • uri_does_not_exist
+  error • Classes and mixins can only implement other classes and mixins • lib/features/auth/data/repositories/auth_repository_impl.dart:5:37 • implements_non_class
+warning • The getter doesn't override an inherited getter • lib/features/auth/data/repositories/auth_repository_impl.dart:12:23 • override_on_non_overriding_member
+warning • The method doesn't override an inherited method • lib/features/auth/data/repositories/auth_repository_impl.dart:17:16 • override_on_non_overriding_member
+warning • The method doesn't override an inherited method • lib/features/auth/data/repositories/auth_repository_impl.dart:29:16 • override_on_non_overriding_member
+warning • The method doesn't override an inherited method • lib/features/auth/data/repositories/auth_repository_impl.dart:41:16 • override_on_non_overriding_member
+warning • The method doesn't override an inherited method • lib/features/auth/data/repositories/auth_repository_impl.dart:47:19 • override_on_non_overriding_member
+  error • The return type 'AuthRepositoryImpl' isn't a 'AuthRepository', as required by the closure's context • lib/features/auth/presentation/providers/auth_provider.dart:21:10 • return_of_invalid_type_from_closure
+  error • Target of URI doesn't exist: '../../auth/presentation/providers/auth_provider.dart' • lib/features/profile/presentation/screens/profile_screen.dart:3:8 • uri_does_not_exist
+  error • Undefined name 'authControllerProvider' • lib/features/profile/presentation/screens/profile_screen.dart:17:24 • undefined_identifier
+  error • Target of URI doesn't exist: '../entities/task.dart' • lib/features/tasks/data/repositories/task_repository_impl.dart:2:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../repositories/task_repository.dart' • lib/features/tasks/data/repositories/task_repository_impl.dart:3:8 • uri_does_not_exist
+  error • Classes and mixins can only implement other classes and mixins • lib/features/tasks/data/repositories/task_repository_impl.dart:5:37 • implements_non_class
+  error • The name 'AppTask' isn't a type, so it can't be used as a type argument • lib/features/tasks/data/repositories/task_repository_impl.dart:11:15 • non_type_as_type_argument
+warning • The method doesn't override an inherited method • lib/features/tasks/data/repositories/task_repository_impl.dart:11:25 • override_on_non_overriding_member
+  error • Undefined name 'AppTask' • lib/features/tasks/data/repositories/task_repository_impl.dart:19:41 • undefined_identifier
+warning • The method doesn't override an inherited method • lib/features/tasks/data/repositories/task_repository_impl.dart:24:16 • override_on_non_overriding_member
+  error • Undefined class 'AppTask' • lib/features/tasks/data/repositories/task_repository_impl.dart:24:39 • undefined_class
+warning • The method doesn't override an inherited method • lib/features/tasks/data/repositories/task_repository_impl.dart:33:16 • override_on_non_overriding_member
+  error • Undefined class 'AppTask' • lib/features/tasks/data/repositories/task_repository_impl.dart:33:42 • undefined_class
+warning • The method doesn't override an inherited method • lib/features/tasks/data/repositories/task_repository_impl.dart:43:16 • override_on_non_overriding_member
+  error • Target of URI doesn't exist: '../../auth/presentation/providers/auth_provider.dart' • lib/features/tasks/presentation/providers/task_provider.dart:3:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../domain/entities/task.dart' • lib/features/tasks/presentation/providers/task_provider.dart:4:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../domain/repositories/task_repository.dart' • lib/features/tasks/presentation/providers/task_provider.dart:5:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../data/repositories/task_repository_impl.dart' • lib/features/tasks/presentation/providers/task_provider.dart:6:8 • uri_does_not_exist
+  error • The name 'TaskRepository' isn't a type, so it can't be used as a type argument • lib/features/tasks/presentation/providers/task_provider.dart:12:41 • non_type_as_type_argument
+  error • The function 'TaskRepositoryImpl' isn't defined • lib/features/tasks/presentation/providers/task_provider.dart:13:10 • undefined_function
+  error • The name 'AppTask' isn't a type, so it can't be used as a type argument • lib/features/tasks/presentation/providers/task_provider.dart:16:49 • non_type_as_type_argument
+  error • Undefined name 'authStateProvider' • lib/features/tasks/presentation/providers/task_provider.dart:17:31 • undefined_identifier
+  error • The name 'AppTask' isn't a type, so it can't be used as a type argument • lib/features/tasks/presentation/providers/task_provider.dart:29:42 • non_type_as_type_argument
+  error • The property 'isCompleted' can't be unconditionally accessed because the receiver can be 'null' • lib/features/tasks/presentation/providers/task_provider.dart:31:49 • unchecked_use_of_nullable_value
+  error • The property 'priority' can't be unconditionally accessed because the receiver can be 'null' • lib/features/tasks/presentation/providers/task_provider.dart:33:36 • unchecked_use_of_nullable_value
+  error • The property 'priority' can't be unconditionally accessed because the receiver can be 'null' • lib/features/tasks/presentation/providers/task_provider.dart:33:57 • unchecked_use_of_nullable_value
+  error • Target of URI doesn't exist: '../../auth/presentation/providers/auth_provider.dart' • lib/features/tasks/presentation/screens/tasks_screen.dart:6:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../domain/entities/task.dart' • lib/features/tasks/presentation/screens/tasks_screen.dart:7:8 • uri_does_not_exist
+  error • Undefined name 'authStateProvider' • lib/features/tasks/presentation/screens/tasks_screen.dart:70:51 • undefined_identifier
+  error • Undefined name 'authStateProvider' • lib/features/tasks/presentation/screens/tasks_screen.dart:91:55 • undefined_identifier
+  error • Undefined name 'authStateProvider' • lib/features/tasks/presentation/screens/tasks_screen.dart:137:29 • undefined_identifier
+  error • The method 'AppTask' isn't defined for the type '_AddTaskSheetState' • lib/features/tasks/presentation/screens/tasks_screen.dart:140:21 • undefined_method
+warning • The value of the local variable 'now' isn't used • test/app_task_test.dart:62:13 • unused_local_variable
+
